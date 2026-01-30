@@ -48,7 +48,7 @@ public class BonusServiceTest {
         long actual = service.calculate(amount, registered);
 
         Assertions.assertEquals(expected, actual);
-}
+    }
 
     @Test
     void CalculateForNotRegisteredAndOverLimit() {
@@ -61,5 +61,5 @@ public class BonusServiceTest {
         long actual = service.calculate(amount, registered);
 
         Assertions.assertEquals(expected, actual);
-}
+    }
 }
